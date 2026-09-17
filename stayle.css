@@ -1,0 +1,155 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tajawal,sans-serif;} 
+    body{
+        background-color: fdfaf9;}
+ /*تنسيق الهيدر الرئيسي*/
+    .main-header{
+        background-color: #e6c8be;
+        padding: 15px 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%}
+ /*تنسيق اللوجو*/
+     .logo{
+    font-size: 24px;
+    font-weight: 800;
+    color: #5c1827;
+    text-decoration: none;
+    white-space: nowrap;}
+/*تنسيق قائمة الروابط في الوسط*/
+    .nav-links{
+        display: flex;
+        gap: 30px;
+        align-items: center;}
+    .nav-links a{
+        text-decoration: none;
+        color: #5c1827;
+        font-size: 16px;
+        font-weight: 600;
+        white-space: nowrap;}
+    .nav-links a:hover{
+        opacity: 0.7;}
+  /*تنسيق زر "تواصلي معنا"*/
+    .btn-contact{
+        background-color: #5c1827;
+        color: #fff;
+        padding: 10px 24px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        white-space: nowrap;}
+    .btn-contact:hover{
+        background-color: #43111b;}
+/*تنسيق الواجهة الرئيسية (hero section)*/
+    .hero-section{
+        min-height: 520px;
+       display: flex;
+       align-items: center;
+       padding: 0 8%;
+       background: linear-gradient(to left,rgba(253,250,249,0.92)0%,rgba(253,250,249,0.4)40%,rgba(253,250,249,0)70%),
+     url('image.png')no-repeat center center/cover;}
+     .btn-book{
+        background-color: #5c1827;
+        color: #fff;
+        padding: 12px 32px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 16px;
+       font-weight: 700;
+       display: inline-block;
+       margin-top: 15px;}
+/*تنسيق قسم الخدمات(services section)*/
+    .services-section{
+    padding: 20px 8% 60px 8%;}
+    .services-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20PX;
+        flex-wrap: wrap;}
+/*تنسيق الكارت الفردي*/
+     .service-card{
+    background-color: #fff;
+    flex: 1;
+    min-width: 200px;
+    padding: 25px 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition:transform 0.3s ease,box-shadow 0.3s ease;
+    cursor: pointer;}
+/* تأثير التمرير (Hover) على الكارت */
+    .service-card:hover{
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(92,24,39,0.12);}
+ /* دائرية الأيقونة */
+    .service-icon{
+        width: 65px;
+        height: 65px;
+        background-color: #f7e8e3;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 15px auto;}
+    .service-icon img{
+        width: 32px;
+        height: 32px;}
+ /* عنوان الخدمة */
+    .service-card h3{
+        color: #5c1827;
+        font-size: 18px;
+        font-weight: 700;}
+/*تنسيق قسم من نحن (About section)*/
+.about-section{
+    background-color: #fff;
+    padding: 60px 8%;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(92,24,39,0.03);}
+.about-content h2{
+    color: #5c1827;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 15px;}
+.about-content P{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;}
+ /* --- 2. تنسيق زر الواتساب العائم --- */
+.whatsapp-btn{
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    background-color: #25d366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    z-index: 1000;
+    transition:transform 0.3s ease;}
+ .whatsapp-btn:hover{
+        transform: scale(1.05);}
+.whatsapp-btn img{
+        width: 24px;
+        height: 24px;}
+
+
+
+
+
+
